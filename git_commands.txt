@@ -1,0 +1,17 @@
+git init (initialize empty git repository in current dir and creates a .git (meta data) directory without any commits)
+git add file1 (will add file1 into git staging area)
+working directory(current directory) -> staging area(changes to be committed) -> repository (after commit) -> remote repository (after push)
+git commit (commit the changes into repository)
+
+
+
+git log (will show all the commits into that repository)
+git diff (compare the working directory and staging area)
+git diff --staged (compares the staging area changes with repository)
+git diff commit1 commit2 (compares the commit1 and commit2)
+
+git reset --hard (discard all the changes into working and staging area)
+
+git show commit1 (will compare the commit1 with its parent)
+git branch -d b1 (will delete b1 branch)
+	
