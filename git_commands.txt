@@ -9,9 +9,24 @@ git log (will show all the commits into that repository)
 git diff (compare the working directory and staging area)
 git diff --staged (compares the staging area changes with repository)
 git diff commit1 commit2 (compares the commit1 and commit2)
+git commit -m "first commit"
 
 git reset --hard (discard all the changes into working and staging area)
 
+git branch b1 (create branch)
+git checkout b1 (switch to b1)
+git checkout -b b1 (will combine the above two commands)
+
+git merge b1 (will merge b1 to the current branch)
+
 git show commit1 (will compare the commit1 with its parent)
+
 git branch -d b1 (will delete b1 branch)
-	
+
+git hub provides remote repository for collaboration 
+
+git remote add origin https://github.com/getshalu/udacity_git_tutorial.git (origin is the remote repository name/alias )
+git push -u origin master 
+git remote -v (will show all the added remotes details/verbose)
+
+
